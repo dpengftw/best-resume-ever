@@ -2,67 +2,68 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
+  first: David
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I'm just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
-
-birth:
-  year: 1990
-  location: New York
+  last: Peng
+about: Ops-engineer with developer background.  Authoring tools and automations to  increase productivity and consistency across the team and organization.
+position: Site Reliability Engineer
 
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Bill.com
+  position: Staff Site Reliability Engineer
+  timeperiod: 2017 - present
+  description: Site Reliability Engineer responsible for infrastructure.  Create CI/CD pipelines with Jenkins, 
+    Artifactory, Ansible Tower.  Manage hybrid cloud.  Run and author Terraform templates.   Create migration 
+    tools to lift and shift to AWS via Cloudformation (CFT) and Ansible.  F5 BigIP refresh and administration.  
+    Administer New Relic monitoring and integration. Install, setup, monitor, administer Utimaco HSM.  Revamp 
+    SMTP solution to incorporate Postfix with Amavis and Dovecot.  Alienvault USM implementation.  Nutanix 
+    install, integration, documentation, and evangelization.  On-premises rack and stack.  Participate in 
+    full-site failover activities.  Triage incidents and on-call rotation.
+  website: https://www.bill.com
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Hewlett Packard Enterprise (Loudcloud/Opsware)
+  position: Sr. Infrastructure Specialist
+  timeperiod: 2000 - 2017
+  description: Technical lead for top clients' infrastructure, consisting of Xerox/Intellinex, ClearXChange, 
+    JPM Chase Order to Pay, and Nike.  Support three-tier architecture with technologies ranging from Opsware, 
+    DNS, iPlanet, Apache Web Server, LDAP, IIS, Active Directory, WebLogic, Dynamo, Oracle.  Setup monitoring, 
+    generating reports, diagnosing break/fix issues, providing client consulting, tier 3 support, backup and 
+    restore, and overall generalist were part of my duties. 
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Acupuncture Course
+  position: Site Administrator
+  timeperiod: 2013 - Present
+  description: Full stack developer and administrator.  Backend of PHP, Postfix, and frontend of JQuery, 
+    AJAX, CDN.  Hosted on Microsoft Azure platform using containers.
+
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Amazon AWS SysOps Certification
+  timeperiod: 2021
+  description: Earners of this certification have a comprehensive understanding on how to deploy, manage, and 
+    operate IT systems on the AWS Cloud. They demonstrated the ability to migrate on-premises workloads to AWS 
+    and monitor, scale, and secure systems on the AWS platform. Badge owners are able to provide guidance on 
+    implementing best practices for cloud operations.
+  website: https://www.credly.com/badges/112dd2bc-7ea7-4a69-9552-4af31eed38f9
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Whizlabs Docker Certified Associate
+  timeperiod: 2019
+  description: Docker Certified Associate certification is for the DevOps engineers to validate their Docker 
+    skills and expertise of using Docker tool.
 
-# skill level goes from 0 to 100
-skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- degree: Netapp ONTAP Administrator
+  timeperiod: 2018
+  description: You have proven skills in performing in-depth support, administrative functions, and performance 
+    management for NetApp® data storage controllers running the ONTAP® operating system in NFS and Windows® (CIFS) 
+    multiprotocol environments. You understand how to implement high-availability controller configurations, 
+    and have detailed knowledge of technologies used to manage and protect mission-critical data.
+
+- degree: Bachelor of Science, CSE
+  timeperiod: 1994 - 1998
+  description: University of California San Diego
+  website: https://www.usnews.com/best-graduate-schools/top-science-schools/university-of-california-san-diego-110680
 
 projects:
 - name: best-resume-ever
@@ -71,28 +72,16 @@ projects:
   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
   url: https://github.com/salomonelli/best-resume-ever
 
-# optional, not all resume templates have hobbies included
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
 contributions:
 - name: best-resume-ever
   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: dpeng1@gmail.com
+  phone: 415 759 8212
+  city: San Mateo
+  github: dpengftw
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
