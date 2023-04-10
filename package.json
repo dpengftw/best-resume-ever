@@ -9,6 +9,8 @@
     "url": "git+https://github.com/salomonelli/best-resume-ever.git"
   },
   "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
     "docs": "node build/build.js",
     "docs:serve": "cd docs/ && ws --port 8080 --rewrite '/best-resume-ever/* -> /$1'",
     "dev": "node build/dev-server.js",
@@ -45,7 +47,7 @@
     "@babel/plugin-transform-runtime": "7.1.0",
     "@babel/preset-env": "7.1.0",
     "@babel/register": "7.0.0",
-    "@vue/cli-service": "5.0.8",
+    "@vue/cli": "5.0.8",
     "autoprefixer": "9.1.5",
     "babel-loader": "8.0.2",
     "chalk": "2.4.1",
