@@ -5,7 +5,9 @@ name:
   first: David
   middle:
   last: Peng
-about: Ops-engineer with developer background.  Authoring tools and automations to  increase productivity and consistency across the team and organization.
+about: Ops-engineer with developer background.  Authoring tools and automations to increase productivity 
+and consistency across the team and organization. Ask me about creating the verb "mustardize", or 
+authoring Nutanix “one-ring” automation, or proxy pipeline integration into a Slack workflow.
 position: Site Reliability Engineer
 
 # you may add more experiences by duplicating the template
